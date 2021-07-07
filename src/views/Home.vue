@@ -9,20 +9,6 @@
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-// import projects from '@/components/Contact'
-
-export default {
-  data() {
-    return{}
-  },
-  // components: {
-  //   projects
-  // }
-}
-</script>
-
 <style scoped>
   .home {
     background-color: #030303 !important;
@@ -34,8 +20,10 @@ export default {
   .home :nth-child(2) {
     font-size: 70px;
     color: #EA830C;
+    line-height: 1;
   }
   .home :nth-child(3), .home :nth-child(4) {
+    /* color: #B6B6B6; */
     font-size: 25px;
   }
   .fa-thumbs-up {

@@ -14,11 +14,11 @@
       <p class="text-muted mt-3">
         I’ve worked with small, agile teams on start innovation hub projects <br> with product lifecycles spanning multiple years.
       </p>
+      <p class="text-muted mt-3">I am proficient in HTML5, CSS3, UI/UX, Vanilla Javascript, and VueJs.</p>
       <p class="text-muted mt-3">
         Depending on the team, resources and deliverables I’ve worn many <br> hats over the years - holding titles like Product Designer, 
         UI Designer, <br> UX Designer, Front-end Developer, & Product Manager.
       </p>
-      <p class="text-muted mt-3">I also occasionally give talks on design and product development.</p>
       <p class="text-muted mt-3">Have an interesting project? <router-link to="/contact" class="link">Let's talk.</router-link></p>
     </div>
   </div>
@@ -35,9 +35,10 @@
 .about :nth-child(1) {
   font-size: 70px;
   color: #EA830C;
+  line-height: 1;
 }
   .about p, .link {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
   .link {
     color: #EA830C;
